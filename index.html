@@ -83,10 +83,10 @@
 
 	<!-- Award & Achievements -->
 	<div class="award section second" id="achievements">
-		<div class="container">
+		<div class="my_container">
 			<h1>Demo</h1>
 			<!--<h1>Award &amp;<br>Achievements</h1>-->
-			<ul class="award-list list-flat">
+			<!--<ul class="award-list list-flat">
 				<li>January 2014</li>
 				<li>Attained PHP5 certification</li>
 				<li>Hold world/Olympic record</li>
@@ -101,7 +101,20 @@
 				<li>March 2014</li>
 				<li>Placed employees at X companies</li>
 				<li>United multiple teams post-merger</li>
-			</ul>
+			</ul>-->
+			<div id="video_container">
+		    	<video id="background_video" loop>
+					<source src="video/basketball.webm" type="video/webm">
+					<source src="video/basketball.mp4" type="video/mp4">
+					<!--<source src="1-2-Front.mp4" type="video/mp4">-->
+		    	</video>
+			</div>
+
+    		<div id="overlay"></div>
+			<div id="plot">
+				<canvas id="grid_canvas"></canvas>
+				<canvas id="plot_canvas"></canvas>
+			</div>
 		</div>
 	</div>
 
@@ -109,7 +122,7 @@
 	<div class="skills section second" id="skills">
 		<div class="container">
 			<h1>Contact Us</h1>
-			<ul class="skill-list list-flat">
+			<!--<ul class="skill-list list-flat">
 				<li>Web Technology</li>
 				<li>HTML / CSS / SASS / PHP / Javascript</li>
 			</ul>
@@ -120,7 +133,7 @@
 			<ul class="skill-list list-flat">
 				<li>Framework</li>
 				<li>Laravel / CodeIgniter / Zend / Ruby On Rails</li>
-			</ul>
+			</ul>-->
 		</div>
 	</div>
 
@@ -135,7 +148,7 @@
 		<div class="container">
 			<div class="units-row">
 			    <div class="unit-50">
-			    	<p>Handcrafted by Afnizar Nur Ghifari</p>
+			    	<p>Tsinghua University</p>
 			    </div>
 			    <div class="unit-50">
 					<ul class="social list-flat right">
@@ -154,6 +167,8 @@
 	<script src="js/typed.min.js"></script>
     <script src="js/kube.min.js"></script>
     <script src="js/site.js"></script>
+    <script src="js/my_plot.js"></script>
+    <script src="js/randomColor.js"></script>
     <script>
 		function newTyped(){}$(function(){$("#typed").typed({
 		// Change to edit type effect
