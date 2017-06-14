@@ -81,7 +81,7 @@ $(function() {
             canvasHeight = htmlCanvas.height;
         context.clearRect(0, 0, canvasWidth, canvasHeight);
 
-        drawGrid();
+        // drawGrid();
 
         var radius = 4;
         // var radius = 3 + 2 * Math.abs(Math.cos(angle));
