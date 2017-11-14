@@ -115,8 +115,8 @@ $(function() {
 		htmlCanvas.height = h;
 	}
 
-    // $.get("1-2-Front.csv", function(data, status){
-    $.get("video/basketball-data.csv", function(data, status){
+    $.get("video/video_3.csv", function(data, status){
+    // $.get("video/basketball-data.csv", function(data, status){
             // alert("Status: " + status);
             processData(data);
         	initialize();
